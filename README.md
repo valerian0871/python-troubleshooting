@@ -2,7 +2,7 @@
 # 🐍 Python Troubleshooting Guide  
 **Your handbook to fixing common Python errors**  
 
-![Python Errors Banner](https://images.app.goo.gl/x3JRLAt7wgRdCHaB9)  
+![Python Errors Banner](./images/pythonerror.jpg)  
   
 
 ## 📌 Table of Contents  
@@ -19,8 +19,8 @@
 ## 1. Installation Issues  
 ### 🔧 ModuleNotFoundError  
 **What you see:**  
-![ModuleNotFoundError](https://i.imgur.com/ABC123.png)  
-*(Screenshot of the error in terminal/IDE)*  
+![ModuleNotFoundError](./images/modulenotfounderror.png)  
+  
 
 **Why it happens:**  
 Python can't find the package because:  
@@ -48,7 +48,7 @@ pip freeze > requirements.txt
 ## 2. Syntax Errors  
 ### 📏 IndentationError  
 **Visual example:**  
-![IndentationError](https://i.imgur.com/DEF456.png)  
+![IndentationError](./images/indentationerror.png)  
 *(Red arrow pointing to bad indentation)*  
 
 **Common causes:**  
@@ -75,7 +75,7 @@ def greet():
 ## 3. Runtime Errors  
 ### ➕ TypeError  
 **Error screenshot:**  
-![TypeError](https://i.imgur.com/GHI789.png)  
+![TypeError](./images/typeerror.png)  
 
 **Broken code:**  
 ```python
@@ -100,7 +100,7 @@ print("Age: {}".format(age))
 ## 4. Data Handling  
 ### 🗃️ KeyError in Dictionaries  
 **Error example:**  
-![KeyError](https://i.imgur.com/JKL012.png)  
+![KeyError](./images/keyerror.png)  
 
 **Problem code:**  
 ```python
@@ -123,7 +123,7 @@ if 'age' in user:
 ## 5. Environment Setup  
 ### 🌐 Virtual Environments  
 **Terminal demo:**  
-![Venv Setup](https://i.imgur.com/MNO345.png)  
+![Venv Setup](./images/venvsetup.jpeg)  
 
 **Step-by-step:**  
 ```bash
@@ -146,7 +146,7 @@ source .venv/bin/activate
 ## 6. Debugging Tips  
 ### 🐞 VS Code Debugger  
 **Debug view screenshot:**  
-![VS Code Debugging](https://i.imgur.com/PQR678.png)  
+![VS Code Debugging](./images/debug.png)  
 
 **How to use:**  
 1. Set breakpoints (click left gutter)  
