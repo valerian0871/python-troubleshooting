@@ -49,7 +49,7 @@ pip freeze > requirements.txt
 ### 📏 IndentationError  
 **Visual example:**  
 ![IndentationError](./images/indentationerror.png)  
-*(Red arrow pointing to bad indentation)*  
+
 
 **Common causes:**  
 - Mixing tabs and spaces  
